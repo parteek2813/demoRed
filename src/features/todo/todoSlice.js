@@ -30,5 +30,5 @@ export const todoSlice = createSlice({
 // exporting each method of the reducer
 export const { addTodo, removeTodo } = todoSlice.actions;
 
-// exporting the entire reducer
+// exporting the entire reducer to wire up to the store in the [store.js] file
 export default todoSlice.reducer;
